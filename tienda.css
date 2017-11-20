@@ -1,0 +1,43 @@
+html{
+    box-sizing: border-box
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(226, 44, 226);
+    height: 100%;
+    width: 100%;
+   
+}
+.logo ,.hero{
+    text-align: center;
+}
+
+img{
+    margin: auto;
+    margin-top: 30px;
+   
+}
+div.hero img {
+    width: 630px;
+}
+.caja-p{
+    text-align: center;
+}
+.caja1,.caja2,.caja3,.caja4,
+.caja5,.caja6,.caja7,.caja8{
+    display: inline-flex;
+    background-color: red;
+    height: 300px;
+    margin: 10px 10px;
+    padding: 0px 150px;
+   
+}
+
+
+
