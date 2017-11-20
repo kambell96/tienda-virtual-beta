@@ -1,0 +1,149 @@
+html{
+    box-sizing: border-box
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+   
+}
+.logo{
+    padding: 20px 0;
+    background-color: white;
+    text-align: center;
+    
+}
+.barra {
+   
+    padding: 0;
+    margin: 0 auto;
+    display: inline-flex;
+    width: 100%;
+    height: 63px;
+    
+}
+.main{
+    background-color: yellow;
+    height: 528px;
+    margin-left: 10px;
+    width: 76%;
+    margin-top: 10px;
+    display: inline-flex;
+}    
+.sidebar {
+    background-color: greenyellow;
+    height: 330px;
+    margin-left: 16px;
+    width: 20%;
+    margin-top: 10px;
+    display: inline-flex
+}
+.footer{
+    background-color: red;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 10px;  
+}
+/** barra de navegacion **/
+nav{
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 80px;
+}
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+}
+nav a {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-decoration: none;
+    width: 880px;
+}
+nav li a {
+    text-align: center;
+    background-color: red;
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+}
+nav a:hover{
+    background: rgb(245, 85, 85);
+}
+nav ul li ul {
+    display: none;
+}
+nav ul li a:hover + ul,nav ul li ul:hover{
+    display: block;
+}
+/** aritcle **/
+.imagen1{
+    display: inline-block;
+}
+div article img {
+    margin-right: 10px;
+    width: 372px
+   
+}
+.article {
+    text-align: left;
+    width: 48%;
+    display: inline-block;
+}
+h2{
+    color: rgb(252, 84, 84);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+p{
+    color: blue;
+}
+main a {
+    background-color: rgb(241, 43, 43);
+    display: block;
+    padding: 10px 30px;
+    margin-top: 10px;
+    width:150px;
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+main a:hover{
+    background-color: rgb(247, 117, 117);
+    transition: all 1.5s;
+}
+
+/** barra aside **/
+aside{
+    text-align: center;
+    padding-right: 2px;
+}
+aside ul {
+    list-style: none;
+}   
+aside a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+aside a:hover{
+    background-color: green;
+}
+.copy p {
+    color: white;
+}
